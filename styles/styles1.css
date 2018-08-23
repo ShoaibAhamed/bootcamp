@@ -8,25 +8,24 @@
 /*Nav bar brand styling*/
 
 
-@media (max-width: 751px) {
+@media (min-width: 552px) {
 
     #Navstyles > a {
         color: white;
         text-decoration: underline overline;
         font-size: 35px;
         font-family: Impact, fantasy;
-        width: 10%;
+        width: 50%;
         margin-top: 10px;
         line-height: 100%;
         text-align: center;
         margin-bottom: 5px;
         text-transform: uppercase;
-        padding-left: 120px;
+       /* padding-right: 300px; */
     }
 
 
 }
-
 
 
 
@@ -67,10 +66,13 @@
 }
 
 
+
+
+
+
 /* Nav bar links styling*/
 
-
-@media (min-width: 545px) {
+@media (min-width: 552px) {
 
     #Navilinks ul li a {
         display: block;
@@ -81,13 +83,14 @@
         text-decoration: none;
         font-family: "Trebuchet MS", Helvetica, sans-serif;
         font-size: 15px;
-        width: 10px;
+        width: 90px;
         height: 5px;
-        margin-left: -5%;
-        margin-top: 5px;
-        padding-bottom: 0px;
+        margin-left: -10%;
+        margin-top: 10px;
+        padding-bottom: 20px;
     }
 }
+
 
 
 @media (min-width: 752px) {
@@ -111,6 +114,7 @@
 
 
 @media (min-width: 992px) {
+
 
     #Navilinks ul li a {
         display: block;
@@ -216,3 +220,46 @@
 
 
 
+
+/*Nav bar brand styling*/
+
+
+
+/*
+
+@media (min-width: 752px) {
+
+    #Navstyles > a {
+        color: white;
+        text-decoration: underline overline;
+        font-size: 35px;
+        font-family: Impact, fantasy;
+        width: 90%;
+        margin-top: 10px;
+        line-height: 100%;
+        text-align: center;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+        padding-right: 30px;
+    }
+}
+
+
+
+@media (min-width: 990px) {
+
+    #Navstyles > a {
+        color: white;
+        text-decoration: underline overline;
+        font-size: 35px;
+        font-family: Impact, fantasy;
+        width: 90%;
+        margin-top: 10px;
+        line-height: 100%;
+        text-align: center;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+        padding-right: 350px;
+    }
+}
+*/
