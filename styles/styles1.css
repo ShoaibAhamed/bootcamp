@@ -1,19 +1,62 @@
-/*   Styling navbar */
+﻿/*   Styling navbar */
 #Navstyles {
     background-color: #008080;
     border-bottom: 10px solid orange;
 }
 
+#ButtonStyles {
+    background-color: orange;
+    margin-bottom: 90px;
 
-/*Nav bar brand styling*/
+}
+
+/* editing bootstrap svg to display white menu lines*/
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
 
 
-@media (min-width: 575px) {
+
+
+
+/*------------------------------------------------------------------------------Nav bar brand styling*/
+
+
+
+@media (min-width: 302px) {
+
+    #ButtonStyles {
+        margin-bottom: 10px;
+    }
+
 
     #Navstyles > a {
         color: white;
         text-decoration: underline overline;
-        font-size: 35px;
+        font-size: 25px;
+        font-family: Impact, fantasy;
+        width: 85%;
+        margin-top: 10px;
+        line-height: 100%;
+        text-align: center;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+        padding-right: 30px;
+    }
+}
+
+
+/* work on this next to match screenshot of slack*/
+@media (min-width: 575px) {
+
+    #ButtonStyles {
+        margin-bottom: 10px;
+    }
+
+    #Navstyles > a {
+        color: white;
+        text-decoration: underline overline;
+        font-size: 31px;
         font-family: Impact, fantasy;
         width: 85%;
         margin-top: 10px;
@@ -27,7 +70,7 @@
 
 
 
-@media (min-width: 600px) {
+@media (min-width: 670px) {
 
     #Navstyles > a {
         color: white;
@@ -83,7 +126,7 @@
 }
 
 
-/* Nav bar links styling*/
+/*---------------------------------------------------------------------------- Nav bar links styling*/
 
 @media (min-width: 552px) {
 
@@ -231,48 +274,3 @@
 }
 
 
-
-
-
-/*Nav bar brand styling*/
-
-
-
-/*
-
-@media (min-width: 752px) {
-
-    #Navstyles > a {
-        color: white;
-        text-decoration: underline overline;
-        font-size: 35px;
-        font-family: Impact, fantasy;
-        width: 90%;
-        margin-top: 10px;
-        line-height: 100%;
-        text-align: center;
-        margin-bottom: 5px;
-        text-transform: uppercase;
-        padding-right: 30px;
-    }
-}
-
-
-
-@media (min-width: 990px) {
-
-    #Navstyles > a {
-        color: white;
-        text-decoration: underline overline;
-        font-size: 35px;
-        font-family: Impact, fantasy;
-        width: 90%;
-        margin-top: 10px;
-        line-height: 100%;
-        text-align: center;
-        margin-bottom: 5px;
-        text-transform: uppercase;
-        padding-right: 350px;
-    }
-}
-*/
