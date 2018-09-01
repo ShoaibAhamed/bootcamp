@@ -1,4 +1,4 @@
-﻿/*   Styling navbar */
+﻿/*   Styling navbar main */
 #Navstyles {
     background-color: #008080;
     border-bottom: 10px solid orange;
@@ -6,13 +6,16 @@
 
 #ButtonStyles {
     background-color: orange;
-    /* margin-bottom: 90px; */
+
 }
 /* editing bootstrap svg to display white menu lines*/
 .navbar-light .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
-/*------------------------------------------------------------------------------Nav bar brand and button styling*/
+
+
+/*------------------------------------------------------------------------------Nav bar brand , button , links styling with media queries   */
+
 @media (min-width: 302px) and (max-width: 576px) {
     .navbar-light .navbar-toggler {
         margin-top: -52px;
@@ -33,7 +36,27 @@
         padding-right: 0px;
         padding-left: 24px;
     }
+
+
+
+    #Navilinks ul li a {
+        display: block;
+        font-weight: bold;
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+        text-decoration: none;
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        font-size: 15px;
+        width: 90px;
+        height: 5px;
+        margin-left: -10%;
+        margin-top: 10px;
+        padding-bottom: 20px;
+    }
 }
+
+
 
 
 @media (min-width: 576px) and (max-width: 670px) {
@@ -55,7 +78,25 @@
         padding-right: 0px;
         padding-left: 0px;
     }
+
+    #Navilinks ul li a {
+        display: block;
+        font-weight: bold;
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+        text-decoration: none;
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        font-size: 15px;
+        width: 90px;
+        height: 5px;
+        margin-left: -10%;
+        margin-top: 10px;
+        padding-bottom: 20px;
+    }
 }
+
+
 
 @media (min-width: 670px) and (max-width: 752px) {
     .navbar-light .navbar-toggler {
@@ -76,9 +117,27 @@
         padding-right: 0px;
         padding-left: 36px;
     }
+
+    #Navilinks ul li a {
+        display: block;
+        font-weight: bold;
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+        text-decoration: none;
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        font-size: 15px;
+        width: 90px;
+        height: 5px;
+        margin-left: -10%;
+        margin-top: 10px;
+        padding-bottom: 20px;
+    }
 }
 
-@media (min-width: 752px) and (max-width: 990px) {
+
+
+@media (min-width: 752px) and (max-width: 992px) {
     .navbar-light .navbar-toggler {
         margin-top: -30px;
     }
@@ -96,11 +155,30 @@
         text-transform: uppercase;
         padding-right: 0px;
     }
+
+
+    #Navilinks ul li a {
+        display: block;
+        font-weight: bold;
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+        text-decoration: none;
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        font-size: 15px;
+        width: 90px;
+        height: 5px;
+        margin-left: -10%;
+        margin-top: 10px;
+        padding-bottom: 20px;
+    }
 }
 
-@media (min-width: 991px) {
+
+
+@media (min-width: 992px) and (max-width: 1060px) {
     .navbar-light .navbar-toggler {
-        margin-top: -25px;
+        margin-top: -30px;
     }
 
     #Navstyles > a {
@@ -108,7 +186,6 @@
         text-decoration: underline overline;
         font-size: 35px;
         font-family: Impact, fantasy;
-        /* width: 90%; */
         margin-top: 10px;
         line-height: 100%;
         text-align: center;
@@ -116,16 +193,8 @@
         text-transform: uppercase;
         padding-right: 350px;
     }
-}
-/*---------------------------------------------------------------------------- start Nav bar links styling*/
 
 
-
-
-
-
-
-@media (min-width: 400px) {
     #Navilinks ul li a {
         display: block;
         font-weight: bold;
@@ -137,15 +206,30 @@
         font-size: 15px;
         width: 90px;
         height: 5px;
-        margin-left: -10%;
+        margin-left: -390%;
+        margin-top: -50px;
+    }
+}
+
+
+
+@media (min-width: 1060px) and (max-width: 1120px) {
+
+
+    #Navstyles > a {
+        color: white;
+        text-decoration: underline overline;
+        font-size: 35px;
+        font-family: Impact, fantasy;
         margin-top: 10px;
-        padding-bottom: 20px;
+        line-height: 100%;
+        text-align: center;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+        padding-right: 350px;
     }
-}
 
 
-
-@media (min-width: 552px) {
     #Navilinks ul li a {
         display: block;
         font-weight: bold;
@@ -157,15 +241,28 @@
         font-size: 15px;
         width: 90px;
         height: 5px;
-        margin-left: -10%;
+        margin-left: -320%;
+        margin-top: -50px;
+    }
+}
+
+
+
+@media (min-width: 1120px) and (max-width: 1220px) {
+
+
+    #Navstyles > a {
+        color: white;
+        text-decoration: underline overline;
+        font-size: 35px;
+        font-family: Impact, fantasy;
         margin-top: 10px;
-        padding-bottom: 20px;
+        line-height: 100%;
+        text-align: center;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+        padding-right: 350px;
     }
-}
-
-@media (min-width: 752px) {
-
-
 
 
     #Navilinks ul li a {
@@ -179,81 +276,28 @@
         font-size: 15px;
         width: 90px;
         height: 5px;
-        margin-left: -10%;
-        margin-top: 10px;
-        padding-bottom: 20px;
-    }
-}
-
-@media (min-width: 992px) {
-    #Navilinks ul li a {
-        display: block;
-        font-weight: bold;
-        color: white;
-        text-transform: uppercase;
-        text-align: center;
-        text-decoration: none;
-        font-family: "Trebuchet MS", Helvetica, sans-serif;
-        font-size: 15px;
-        width: 90px;
-        height: 5px;
-        margin-left: -400%;
+        margin-left: -255%;
         margin-top: -50px;
     }
 }
 
-@media (min-width: 1000px) {
-    #Navilinks ul li a {
-        display: block;
-        font-weight: bold;
-        color: white;
-        text-transform: uppercase;
-        text-align: center;
-        text-decoration: none;
-        font-family: "Trebuchet MS", Helvetica, sans-serif;
-        font-size: 15px;
-        width: 90px;
-        height: 5px;
-        margin-left: -400%;
-        margin-top: -50px;
-    }
-}
-
-@media (min-width: 1099px) {
-    #Navilinks ul li a {
-        display: block;
-        font-weight: bold;
-        color: white;
-        text-transform: uppercase;
-        text-align: center;
-        text-decoration: none;
-        font-family: "Trebuchet MS", Helvetica, sans-serif;
-        font-size: 15px;
-        width: 90px;
-        height: 5px;
-        margin-left: -380%;
-        margin-top: -50px;
-    }
-}
-
-@media (min-width: 1100px) {
-    #Navilinks ul li a {
-        display: block;
-        font-weight: bold;
-        color: white;
-        text-transform: uppercase;
-        text-align: center;
-        text-decoration: none;
-        font-family: "Trebuchet MS", Helvetica, sans-serif;
-        font-size: 15px;
-        width: 90px;
-        height: 35px;
-        margin-left: -290%;
-        margin-top: -50px;
-    }
-}
 
 @media (min-width: 1220px) {
+
+    #Navstyles > a {
+        color: white;
+        text-decoration: underline overline;
+        font-size: 35px;
+        font-family: Impact, fantasy;
+        margin-top: 10px;
+        line-height: 100%;
+        text-align: center;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+        padding-right: 350px;
+    }
+
+
     #Navilinks ul li a {
         display: block;
         font-weight: bold;
@@ -265,9 +309,7 @@
         font-size: 15px;
         width: 90px;
         height: 35px;
-        margin-left: -130%;
+        margin-left: -155%;
         margin-top: -50px;
     }
 }
-/*------------------------------------------------------------------------END  Nav bar links styling*/
-
