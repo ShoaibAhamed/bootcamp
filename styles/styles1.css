@@ -14,9 +14,89 @@
 }
 
 
+
 /*------------------------------------------------------------------------------Nav bar brand , button , links styling with media queries   */
 
-@media (min-width: 302px) and (max-width: 576px) {
+@media (min-width: 302px) and (max-width: 349px) {
+    .navbar-light .navbar-toggler {
+
+        margin-top: -25px;
+        margin-right: -15px;
+    }
+
+    #Navstyles > a {
+        color: white;
+        text-decoration: underline overline;
+        font-size: 22px;
+        font-family: Impact, fantasy;
+        width: 75%;
+        margin-top: -9px;
+        line-height: 100%;
+        text-align: center;
+        margin-bottom: -12px;
+        text-transform: uppercase;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    #Navilinks ul li a {
+        display: block;
+        font-weight: bold;
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+        text-decoration: none;
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        font-size: 15px;
+        width: 90px;
+        height: 5px;
+        margin-left: -10%;
+        margin-top: 10px;
+        padding-bottom: 20px;
+    }
+}
+
+
+@media (min-width: 349px) and (max-width: 415px) {
+    .navbar-light .navbar-toggler {
+        margin-top: -45px;
+        margin-right: -15px;
+    }
+
+    #Navstyles > a {
+        color: white;
+        text-decoration: underline overline;
+        font-size: 28px;
+        font-family: Impact, fantasy;
+        width: 82%;
+        margin-top: -9px;
+        line-height: 100%;
+        text-align: center;
+        margin-bottom: -12px;
+        text-transform: uppercase;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    #Navilinks ul li a {
+        display: block;
+        font-weight: bold;
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+        text-decoration: none;
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        font-size: 15px;
+        width: 90px;
+        height: 5px;
+        margin-left: -10%;
+        margin-top: 10px;
+        padding-bottom: 20px;
+    }
+}
+
+
+@media (min-width: 415px) and (max-width: 576px) {
     .navbar-light .navbar-toggler {
         margin-top: -52px;
         margin-right: -15px;
@@ -57,8 +137,6 @@
 }
 
 
-
-
 @media (min-width: 576px) and (max-width: 670px) {
     .navbar-light .navbar-toggler {
         margin-top: -25px;
@@ -95,7 +173,6 @@
         padding-bottom: 20px;
     }
 }
-
 
 
 @media (min-width: 670px) and (max-width: 752px) {
@@ -136,7 +213,6 @@
 }
 
 
-
 @media (min-width: 752px) and (max-width: 992px) {
     .navbar-light .navbar-toggler {
         margin-top: -30px;
@@ -175,7 +251,6 @@
 }
 
 
-
 @media (min-width: 992px) and (max-width: 1060px) {
     .navbar-light .navbar-toggler {
         margin-top: -30px;
@@ -212,7 +287,6 @@
 }
 
 
-
 @media (min-width: 1060px) and (max-width: 1120px) {
 
 
@@ -245,7 +319,6 @@
         margin-top: -50px;
     }
 }
-
 
 
 @media (min-width: 1120px) and (max-width: 1220px) {
