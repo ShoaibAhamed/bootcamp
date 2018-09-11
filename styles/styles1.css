@@ -14,13 +14,12 @@
 }
 
 
-
 /*------------------------------------------------------------------------------Nav bar brand , button , links styling with media queries   */
 
-@media (min-width: 302px) and (max-width: 349px) {
+@media only screen and (min-width: 302px) and (max-width: 349px) {
 
     .navbar-light .navbar-toggler {
-        margin-top: -17px;
+        margin-top: -14px;
         margin-right: -24px;
         font-size: 12px;
         padding-top: 5px;
@@ -35,10 +34,10 @@
         font-size: 15px;
         font-family: Impact, fantasy;
         width: 75%;
-        margin-top: -9px;
+        margin-top: -11px;
         line-height: 100%;
         text-align: center;
-        margin-bottom: -12px;
+        margin-bottom: -13px;
         text-transform: uppercase;
         padding-right: 0px;
         padding-left: 0px;
@@ -54,17 +53,17 @@
         text-align: center;
         text-decoration: none;
         font-family: "Trebuchet MS", Helvetica, sans-serif;
-        font-size: 15px;
+        font-size: 10px;
         width: 90px;
         height: 5px;
-        margin-left: -10%;
-        margin-top: 10px;
+        margin-left: 29%;
+        margin-top: 0px;
         padding-bottom: 20px;
     }
 }
 
 
-@media (min-width: 349px) and (max-width: 415px) {
+@media only screen and (min-width: 349px) and (max-width: 415px) {
 
     .navbar-light .navbar-toggler {
         margin-top: -54px;
@@ -109,7 +108,7 @@
 }
 
 
-@media (min-width: 415px) and (max-width: 576px) {
+@media only screen and (min-width: 415px) and (max-width: 576px) {
     .navbar-light .navbar-toggler {
         margin-top: -52px;
         margin-right: -20px;
@@ -151,7 +150,7 @@
 }
 
 
-@media (min-width: 576px) and (max-width: 670px) {
+@media only screen and (min-width: 576px) and (max-width: 670px) {
     .navbar-light .navbar-toggler {
         margin-top: -25px;
     }
@@ -192,7 +191,7 @@
 
 
 
-@media (min-width: 670px) and (max-width: 752px) {
+@media only screen and (min-width: 670px) and (max-width: 752px) {
     .navbar-light .navbar-toggler {
         margin-top: -30px;
     }
@@ -232,7 +231,7 @@
 }
 
 
-@media (min-width: 752px) and (max-width: 992px) {
+@media only screen and (min-width: 752px) and (max-width: 992px) {
     .navbar-light .navbar-toggler {
         margin-top: -30px;
     }
@@ -272,7 +271,7 @@
 }
 
 
-@media (min-width: 992px) and (max-width: 1060px) {
+@media only screen and (min-width: 992px) and (max-width: 1060px) {
     .navbar-light .navbar-toggler {
         margin-top: -30px;
     }
@@ -309,7 +308,7 @@
 }
 
 
-@media (min-width: 1060px) and (max-width: 1120px) {
+@media only screen and (min-width: 1060px) and (max-width: 1120px) {
 
 
     #Navstyles > a {
@@ -344,7 +343,7 @@
 }
 
 
-@media (min-width: 1120px) and (max-width: 1220px) {
+@media only screen and (min-width: 1120px) and (max-width: 1220px) {
 
 
     #Navstyles > a {
@@ -379,7 +378,7 @@
 }
 
 
-@media (min-width: 1220px) {
+@media only screen and (min-width: 1220px) {
 
     #Navstyles > a {
         color: white;
@@ -410,3 +409,60 @@
         margin-top: -50px;
     }
 }
+
+
+
+/* will need padding to show content due to bootstraps nav bar blocking - see bootstrap documentation*/
+main {
+
+    padding-top: 121px;
+
+}
+
+.navbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    top: 0;
+}
+
+
+/*video  adjusted the css  */
+
+#video-container {
+	position: absolute;
+	z-index: -1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    background-size: cover;
+    background-color: transparent;
+    background-repeat: no-repeat;
+	background-position: 50% 50%;
+    background-image: none;
+}
+     
+
+video {
+        position: absolute;
+        bottom: 50%;
+        right: 50%;
+        transform: translate(50%, 50%);
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -1000;
+        overflow: hidden;
+        max-width: 0%;
+        max-height: 149%;
+/*	width: 100%;
+	height: auto; */
+}
+
+
+
+
